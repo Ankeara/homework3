@@ -1,0 +1,157 @@
+class Item {
+  String name;
+  String image;
+  String subcate;
+  String typeitem;
+  double price;
+  int reviews;
+  bool isLiked;
+
+  Item({
+    required this.name,
+    required this.image,
+    required this.subcate,
+    required this.typeitem,
+    required this.price,
+    required this.reviews,
+    required this.isLiked,
+  });
+}
+
+final List<Item> items = [
+  Item(
+    name: "Fresh shampoo",
+    image: "assets/images/1.png",
+    subcate: "Mustela",
+    typeitem: "500 ml",
+    price: 7.00,
+    reviews: 23,
+    isLiked: false,
+  ),
+  Item(
+    name: "gentle shampoo",
+    image: "assets/images/2.png",
+    subcate: "Mustela",
+    typeitem: "500 ml",
+    price: 5.00,
+    reviews: 23,
+    isLiked: false,
+  ),
+  Item(
+    name: "Medicine Lung",
+    image: "assets/images/3.png",
+    subcate: "Now Food",
+    typeitem: "500 ml",
+    price: 50.50,
+    reviews: 23,
+    isLiked: false,
+  ),
+  Item(
+    name: "Mamy poko pants",
+    image: "assets/images/4.png",
+    subcate: "Pampers",
+    typeitem: "Size - 2(4 - 8 kg), 68pac",
+    price: 6.00,
+    reviews: 23,
+    isLiked: false,
+  ),
+  Item(
+    name: "Medicine Heart",
+    image: "assets/images/5.png",
+    subcate: "Mustela",
+    typeitem: "100 mg",
+    price: 35.00,
+    reviews: 23,
+    isLiked: false,
+  ),
+  Item(
+    name: "Medicine Heart",
+    image: "assets/images/6.png",
+    subcate: "Mustela",
+    typeitem: "100 mg",
+    price: 35.00,
+    reviews: 23,
+    isLiked: false,
+  ),
+  Item(
+    name: "Omega-3",
+    image: "assets/images/7.png",
+    subcate: "Mustela",
+    typeitem: "500 ml",
+    price: 30.00,
+    reviews: 23,
+    isLiked: false,
+  ),
+  Item(
+    name: "Ultra Omega-3",
+    image: "assets/images/8.png",
+    subcate: "Mustela",
+    typeitem: "500 ml",
+    price: 35.00,
+    reviews: 23,
+    isLiked: false,
+  ),
+  Item(
+    name: "Shampoo Wash",
+    image: "assets/images/9.png",
+    subcate: "Weleda",
+    typeitem: "500 ml",
+    price: 6.50,
+    reviews: 23,
+    isLiked: false,
+  ),
+  Item(
+    name: "Pepto-Bismol",
+    image: "assets/images/10.png",
+    subcate: "Weleda",
+    typeitem: "250 ml",
+    price: 12.00,
+    reviews: 23,
+    isLiked: false,
+  ),
+  Item(
+    name: "Suave Shampoo",
+    image: "assets/images/11.png",
+    subcate: "Mustela",
+    typeitem: "500 ml",
+    price: 7.00,
+    reviews: 23,
+    isLiked: false,
+  ),
+  Item(
+    name: "Suave Shampoo For Kid",
+    image: "assets/images/12.png",
+    subcate: "Mustela",
+    typeitem: "500 ml",
+    price: 5.00,
+    reviews: 23,
+    isLiked: false,
+  ),
+  Item(
+    name: "Women's Multivitamins",
+    image: "assets/images/13.png",
+    subcate: "Now Food",
+    typeitem: "75 mg",
+    price: 86.50,
+    reviews: 23,
+    isLiked: false,
+  ),
+  Item(
+    name: "Wetwipe For Kid",
+    image: "assets/images/14.png",
+    subcate: "Huggies",
+    typeitem: "500 ml",
+    price: 4.50,
+    reviews: 23,
+    isLiked: false,
+  ),
+  Item(
+    name: "Women's Multivitamins",
+    image: "assets/images/15.png",
+    subcate: "Now Food",
+    typeitem: "70 mg",
+    price: 35.00,
+    reviews: 23,
+    isLiked: false,
+  ),
+];
